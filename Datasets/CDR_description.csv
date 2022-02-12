@@ -1,0 +1,11 @@
+Column name,Description,Format
+PRODUCT,Voice or SMS,String
+VALUE,Billing price,Integer
+DATE_TIME,Time in format yyyy-MM-dd hh:mm:ss.0,String
+CELL_ON_SITE,Which cell in the site was used (not needed here),Integer
+DW_A_NUMBER_INT,Anonymized phone number of the person for which the CELL_ID and SITE_ID are given,String
+DW_B_NUMBER_INT,Anonymized phone number of the counterparty,String
+COUNTRY_A,Country of party A (useless here),String
+COUNTRY_B,Country of party B (useless here),String
+CELL_ID,ID of the cell,String
+SITE_ID,ID of the SITE,String
